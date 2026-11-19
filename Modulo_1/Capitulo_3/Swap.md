@@ -8,7 +8,7 @@ C++ permite sobrecargar funciones para implementar 3 formas de pasaje.
 
 2. Por PUNTERO:
    Recibe direcciones (&x, &y) y desreferencia (*); SI modifica main.
-   void swap(int *a, int *b) {int c = * a, * a = * b, * b = c}
+   void swap(int * a, int * b) {int c = * a, * a = * b, * b = c}
 
 3. Por REFERENCIA:
    a y b son alias directos de x e y; SI modifica en el main.
